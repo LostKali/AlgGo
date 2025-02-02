@@ -1,4 +1,4 @@
-package main
+package matrix
 
 /*
 You are given an m x n matrix accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer

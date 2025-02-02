@@ -1,4 +1,4 @@
-package main
+package matrix
 
 /*
 Given a square matrix (2D array), calculate the sum of its two diagonals.

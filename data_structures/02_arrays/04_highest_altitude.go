@@ -1,4 +1,4 @@
-package main
+package arrays
 
 /*
 A bike rider is going on a ride. The road contains n + 1 points at different altitudes.

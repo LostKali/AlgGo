@@ -1,4 +1,4 @@
-package main
+package matrix
 
 /*
 Given a binary matrix that has dimensions , consisting of ones and zeros,

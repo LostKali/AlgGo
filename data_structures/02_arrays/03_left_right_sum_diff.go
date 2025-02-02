@@ -1,4 +1,4 @@
-package main
+package arrays
 
 /*
 Given an input array of integers nums, find an integer array, let's call it differenceArray,
