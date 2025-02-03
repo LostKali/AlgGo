@@ -1,29 +1,25 @@
 package stack
 
-import(
+import (
 	"container/list"
 	"fmt"
 )
 
-type StackOverList
-[T any] struct {
+type StackOverList[T any] struct {
 	stack list.List
 }
 
-func (s *StackOverList
-	[T]) IsEmpty() bool {
+func (s *StackOverList[T]) IsEmpty() bool {
 	return s.stack.Len() == 0
 }
 
-func (s *StackOverList
-	[T]) Push(data T) {
+func (s *StackOverList[T]) Push(data T) {
 	s.stack.PushBack(data)
 }
 
-func (s *StackOverList
-	[T]) Pop() (T, error) {
+func (s *StackOverList[T]) Pop() (T, error) {
 	var zero T
-	
+
 	if s.IsEmpty() {
 		return zero, fmt.Errorf("EmptyStackException")
 	}
@@ -33,8 +29,7 @@ func (s *StackOverList
 	return back.Value.(T), nil
 }
 
-func (s *StackOverList
-	[T]) Peek() (T, error) {
+func (s *StackOverList[T]) Peek() (T, error) {
 	var zero T
 
 	if s.IsEmpty() {
