@@ -1,4 +1,4 @@
-package main
+package stack
 
 /*
 Given a string s containing (, ), [, ], {, and } characters. Determine if a given string
