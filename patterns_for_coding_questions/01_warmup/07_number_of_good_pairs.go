@@ -1,4 +1,4 @@
-package main
+package warmup
 
 /*
 Given an array of integers nums, return the number of good pairs.
